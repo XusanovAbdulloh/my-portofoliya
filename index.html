@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Xusanov Abdulloh || Portofoliya
+        </title>
+      </head>
+      
+      <body>
+        <div id="cursor"></div>
+        <div class="wrapper">
+          <header id="header">
+            <div class="icon" id="menu-btn">
+              <a href="#navbar">
+                <i class="bi bi-list"></i>
+              </a>
+      
+            </div>
+            <div class="hero" id="hero">
+            </div>
+      
+            <div class="desc">
+              <h1>Hey, I'm <span class="name">Xusanov Abdulloh</span>.</h1>
+              <p>I am web developer(Full stack)</p>
+              <p>My age: 14</p>
+            </div>
+          </header>
+          <nav id="navbar">
+            <ul>
+              <li><a href="#header" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#work" class="nav-link">Work</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <section id="about">
+            <h1>About</h1>
+            <div class="container hidden">
+              <div class="img-container">
+                <img src="./img/photo_2023-05-26_16-31-52.jpg" alt="Abdulloh" />
+              </div>
+              <div class="hidden">
+                <h2>Abdulloh Xusanov</h2>
+                <p>I am a full stack developer and I have projects in the languages ​​shown below.</p>
+                <div class="skills-container ">
+                  <h3>Frontend</h3>
+                  <ul class="skillset">
+                    <li>Javascript
+                    </li>
+                    <li>HTML
+                    </li>
+                    <li>CSS
+                    </li>
+                    <li>Scss & Sass
+                    </li>
+                    <li>
+                      React.js & Vite.js
+                    </li>
+                   
+      
+                  </ul>
+                  <h3>Backend</h3>
+                  <ul class="skillset">
+                     <li>Node.js</li>
+                     <li>Telegram bot</li>
+                     <li>Graphql Apollo server</li>
+                     <li>MongoDb</li>
+                     <li>PostgresSql</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Frameworks & Environments</h3>
+                  <ul class="skillset">
+                    <li>Bootstrap</li>
+                    <li>Tailwindcss</li>
+                    <li>Git & Github</li> 
+                    <li>Orm</li>
+                    <li>Odm</li>
+                    <li>Express.js</li>
+                  </ul>
+                </div>
+      
+              </div>
+            </div>
+      
+          </section>
+          <div class="clearfix"></div>
+      
+          <section id="work">
+            <h1>Work</h1>
+            <div id="carousel-wrapper" class="hidden">
+              <div id="menu">
+                <div id="current-option">
+                  <h2 id="current-option-title">Ebay Clone</h2>
+                  <p id="current-option-text">Login is not working</p>
+                </div>
+                <div class="buttons">
+                  <button id="previous-option"><i class="bi bi-chevron-left"></i></button>
+                  <button id="next-option"><i class="bi bi-chevron-right"></i></button>
+                </div>
+              </div>
+              <div id="image-ctn" class="img-container">
+                <img src="./img/ebay.jpg" id="image" />
+              </div>
+              <div class="demo-code" id="demo-code">
+                <button>
+                  <a href="https://my-ebay-clone.netlify.app/" id="demo">Demo</a>
+                </button>
+                <button>
+                  <a href="https://github.com/XusanovAbdulloh/ebay" id="code">Code</a>
+                </button>
+              </div>
+      
+            </div>
+          </section>
+          <section id="contact">
+            <h1>Contacts</h1>
+            <div class="form-container">
+              <form action="#" id="form">
+                <div class="input-area">
+                  <label for="name">Name</label>
+                  <input type="text" name="Name" id="name" required>
+                </div>
+                <div class="input-area">
+                  <label for="phone">Phone</label>
+                  <input type="tel" name="Phone" id="phone">
+                </div>
+                <div class="input-area">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="e-mail" id="email" required>
+                </div>
+                <div class="input-area">
+                  <textarea name="message" id="message" rows="3" maxlength="200" wrap="soft" placeholder="Write your message here..." required></textarea>
+                </div>
+      
+                <input type="submit" value="Send">
+              </form>
+            </div>
+          </section>
+          <footer>
+            <ul class="socials">
+              <li><a href="https://github.com/XusanovAbdulloh" target="_blank"><i class="bi bi-github"></i></a></li>
+              <li><a href="mailto:abdullohxusanov512@gmail.com"><i class="bi bi-envelope"></i></a></li>
+              <li><a href="tel:+998998257520"><i class="bi bi-telephone-fill"></i></a></li>
+            </ul>
+          </footer>
+      
+        </div>
+        <script src="/script/index.js"></script>
+      </body>
+</html>
